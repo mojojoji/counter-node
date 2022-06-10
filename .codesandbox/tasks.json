@@ -6,7 +6,8 @@
   "tasks": {
     "Run": {
       "name": "Run",
-      "command": "node index.js"
+      "command": "node index.js",
+      "runAtStart": true
     }
   }
 }
