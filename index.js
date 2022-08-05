@@ -1,5 +1,3 @@
-let counter = 1;
-
 setInterval(() => {
-  console.log(`Count : ${counter++}`);
+  console.log("Time", new Date());
 }, 1000);
