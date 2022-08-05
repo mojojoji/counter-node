@@ -1,5 +1,4 @@
-let counter = 1;
-
+let i = 0;
 setInterval(() => {
-  console.log(`Count : ${counter++}`);
+  console.log(`Time at ${i++}`, new Date());
 }, 1000);
